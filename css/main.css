@@ -1,0 +1,167 @@
+@-webkit-keyframes landanim {
+  0% {
+  	-webkit-transform:translateY(60px);
+     transform:translateY(60px);
+ }
+ 100%{
+ 	-webkit-transform:translateY(0px);
+     transform:translateY(0px);
+ }
+}
+
+@keyframes landanim {
+  0% {
+  	-webkit-transform:translateY(60px);
+     transform:translateY(60px);
+ }
+ 100%{
+ 	-webkit-transform:translateY(0px);
+     transform:translateY(0px);
+ }
+}
+
+
+@-webkit-keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+
+@-webkit-keyframes opacanim {
+  0% {
+   opacity: 0;
+   -webkit-transform:translateY(70px);
+     transform:translateY(70px);
+  }
+  100% {
+   opacity:100;
+   -webkit-transform:translateY(0px);
+     transform:translateY(0px);
+  }
+}
+@keyframes opacanim {
+   0% {
+   opacity: 0;
+   -webkit-transform:translateY(70px);
+     transform:translateY(70px);
+  }
+  100% {
+   opacity:100;
+   -webkit-transform:translateY(0px);
+     transform:translateY(0px);
+  }
+}
+
+
+@-webkit-keyframes suninitopac {
+  0% {
+   opacity: 0;
+  
+  }
+  100% {
+   opacity:0;
+  
+  }
+}
+@keyframes suninitopac {
+   0% {
+   opacity: 0;
+  
+  }
+  100% {
+   opacity:0;
+  
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+	overflow-y: hidden;
+}
+.earth{
+	position:absolute;
+	top:40vh;
+	left:70vh;
+	height:80vh;
+	z-index: 1;
+	
+
+
+}
+.land{
+	position:absolute;
+	top:60vh;
+	left:38vw;
+	z-index:2;
+	height:40vh;
+	-webkit-animation: landanim 1.5s ease-in-out ;
+	        animation: landanim 1.5s ease-in-out ;
+}
+
+
+
+
+
+.rot {
+	-webkit-animation: rotate-center 5s linear infinite both;
+	        animation: rotate-center 5s linear infinite both;
+	        animation-delay: 3.2s;
+}
+
+
+.divan{
+	-webkit-animation: opacanim 1.5s ease-in-out ;
+	        animation: opacanim 1.5s ease-in-out ;
+	        animation-delay: 2s;
+
+}
+
+.sunaadyam{
+	-webkit-animation: suninitopac 2s linear;
+	        animation: suninitopac 2s linear ;
+	       
+}
+@media (max-width: 480px){
+ .earth{
+	position:absolute;
+	top:80vh;
+	left:17vw;
+	height:60vw;
+
+}
+}
+@media (max-width: 360px){
+ .earth{
+	position:absolute;
+	top:70vh;
+	left:12vw;
+	height:70vw;
+
+}
+}
