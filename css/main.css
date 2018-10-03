@@ -114,25 +114,21 @@
 @-webkit-keyframes opacanim {
   0% {
    opacity: 0;
-   -webkit-transform:translateY(70px);
-     transform:translateY(70px);
+   bottom: -50%;
   }
   100% {
    opacity:100;
-   -webkit-transform:translateY(0px);
-     transform:translateY(0px);
+   bottom: 0%;
   }
 }
 @keyframes opacanim {
    0% {
    opacity: 0;
-   -webkit-transform:translateY(70px);
-     transform:translateY(70px);
+   bottom: -50%;
   }
   100% {
    opacity:100;
-   -webkit-transform:translateY(0px);
-     transform:translateY(0px);
+   bottom: 0%;
   }
 }
 
@@ -180,7 +176,7 @@ body{
     /* center the element */
     right: 0;
     left: 0;
-    bottom: 0vh;
+    bottom: 0%;
     margin-right: auto;
     margin-left: auto;
     /* give it dimensions */
