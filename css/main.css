@@ -19,6 +19,74 @@
      transform:translateY(0px);
  }
 }
+@-webkit-keyframes balloonanim {
+  0% {
+    bottom:0vh;
+ }
+ 100%{
+  bottom:55vh;
+ }
+}
+
+@keyframes balloonanim {
+  0% {
+    bottom:0vh;
+ }
+ 100%{
+  bottom:55vh;
+ }
+}
+@-webkit-keyframes littlecloudanim {
+  0% {
+    left:0vh;
+ }
+ 100%{
+  left:55vh;
+ }
+}
+
+@keyframes littlecloudanim {
+  0% {
+    left:0vh;
+ }
+ 100%{
+  left:55vh;
+ }
+}
+@-webkit-keyframes bigcloudanim {
+  0% {
+    right:0vh;
+ }
+ 100%{
+  right:55vh;
+ }
+}
+
+@keyframes bigcloudanim {
+  0% {
+    right:0vh;
+ }
+ 100%{
+  right:55vh;
+ }
+}
+@-webkit-keyframes balloon2anim {
+  0% {
+    bottom:0vh;
+ }
+ 100%{
+  bottom:40vh;
+ }
+}
+
+@keyframes balloon2anim {
+  0% {
+    bottom:0vh;
+ }
+ 100%{
+  bottom:40vh;
+ }
+}
 
 
 @-webkit-keyframes rotate-center {
@@ -140,6 +208,62 @@ body{
   -webkit-animation: landanim 1.5s ease-in-out ;
           animation: landanim 1.5s ease-in-out ;
 }
+.balloon{
+  bottom:55vh;
+  position: fixed;
+  left: 45vh;
+  margin-right: auto;
+  margin-left: auto;
+  z-index:1;
+  -webkit-animation: balloonanim 1s ease-in-out ;
+  animation: balloonanim 1s ease-in-out ;
+
+}
+.balloon2{
+  bottom:40vh;
+  position: fixed;
+  width:5vh; 
+  right: 40vh;
+  margin-right: auto;
+  margin-left: auto;
+  z-index:1;
+  -webkit-animation: balloon2anim 1.2s ease-in-out ;
+  animation: balloon2anim 1.2s ease-in-out ;
+
+}
+.bigballoon{
+  bottom:55vh;
+  position: fixed;
+  left: 60vh;
+  margin-right: auto;
+  margin-left: auto;
+  z-index:1;
+  -webkit-animation: balloonanim 1.7s ease-in-out ;
+  animation: balloonanim 1.7s ease-in-out ;
+
+}
+.bigcloud{
+  bottom:65vh;
+  position: fixed;
+  right: 55vh;
+  margin-right: auto;
+  margin-left: auto;
+  z-index:1;
+  -webkit-animation: bigcloudanim 2s ease-in-out ;
+  animation: bigcloudanim 2s ease-in-out ;
+
+}
+.littlecloud{
+  bottom:75vh;
+  position: fixed;
+  left: 55vh;
+  margin-right: auto;
+  margin-left: auto;
+  z-index:1;
+  -webkit-animation: littlecloudanim 3s ease-in-out ;
+  animation: littlecloudanim 3s ease-in-out ;
+
+}
 
 
 
@@ -175,6 +299,9 @@ body{
   width:80vw;
   bottom: 0vh;
 }
+.balloon{
+ bottom:30vh;
+
 }
 @media (max-width: 480px){
  .earth{
@@ -187,11 +314,18 @@ body{
   width:80vw;
   bottom: 0vh;
 }
+.balloon{
+ bottom:30vh;
+}
 }
 @media (max-width: 360px){
  .earth{
   
   height:70vw;
+
+}
+.balloon{
+  bottom:30vh;
 
 }
 }
