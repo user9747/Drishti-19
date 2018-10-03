@@ -112,7 +112,7 @@ body{
     /* center the element */
     right: 0;
     left: 0;
-    top:50vh;
+    bottom: 0vh;
     margin-right: auto;
     margin-left: auto;
     /* give it dimensions */
@@ -132,7 +132,7 @@ body{
     /* center the element */
     right: 0;
     left: 0;
-    top:60vh;
+    bottom:0vh;
     margin-right: auto;
     margin-left: auto;
   z-index:2;
@@ -164,16 +164,28 @@ body{
           animation: suninitopac 2s linear ;
          
 }
-@media (max-width: 480px){
+@media (max-width: 720px){
  .earth{
   
   height:90vw;
-  top:60vh;
+  bottom:0vh;
 
 }
 .land{
   width:60vw;
-  top:70vh;
+  bottom: 0vh;
+}
+}
+@media (max-width: 480px){
+ .earth{
+  
+  height:90vw;
+  bottom:0vh;
+
+}
+.land{
+  width:50vw;
+  bottom: 0vh;
 }
 }
 @media (max-width: 360px){
