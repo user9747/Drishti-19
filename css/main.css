@@ -136,7 +136,7 @@ body{
     margin-right: auto;
     margin-left: auto;
   z-index:2;
-  width:25vw;
+  width:80vw;
   -webkit-animation: landanim 1.5s ease-in-out ;
           animation: landanim 1.5s ease-in-out ;
 }
@@ -167,24 +167,24 @@ body{
 @media (max-width: 720px){
  .earth{
   
-  height:90vw;
+  height:60vw;
   bottom:0vh;
 
 }
 .land{
-  width:60vw;
+  width:80vw;
   bottom: 0vh;
 }
 }
 @media (max-width: 480px){
  .earth{
   
-  height:90vw;
+  height:60vw;
   bottom:0vh;
 
 }
 .land{
-  width:50vw;
+  width:80vw;
   bottom: 0vh;
 }
 }
