@@ -153,22 +153,22 @@
 
 @-webkit-keyframes opacanim {
   0% {
-   opacity: 0;
-   bottom: -50%;
+   opacity: 100;
+   margin-bottom: -10vh; 
   }
   100% {
    opacity:100;
-   bottom: 0%;
+   margin-bottom: 0vh;
   }
 }
 @keyframes opacanim {
    0% {
-   opacity: 0;
-   bottom: -50%;
+   opacity: 100;
+  margin-bottom: -10vh; 
   }
   100% {
    opacity:100;
-   bottom: 0%;
+  margin-bottom: 0vh;
   }
 }
 
@@ -256,6 +256,8 @@ body{
     margin-left: auto;
     /* give it dimensions */
     min-height: 10em;
+      -webkit-animation: opacanim 1s linear;
+          animation: opacanim 1s linear ;
    
   height:80vh;
   z-index: -1;
@@ -271,8 +273,10 @@ body{
     /* center the element */
     right: 0;
     left: 0;
-    bottom:0vh;
-    margin-right: auto;
+    bottom:0vh; 
+    margin-bottom: -10vh;
+
+       margin-right: auto;
     margin-left: auto;
   z-index:2;
   width:80vw;
