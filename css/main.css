@@ -520,7 +520,7 @@ body{
   width:30vh;
 }
 .drishti{
-  bottom:20%;
+  bottom:22%;
   height:40vh;
 }
 @-webkit-keyframes drishanim {
@@ -529,7 +529,7 @@ body{
     bottom: -60%;
   }
   to {
-    bottom: 20%;
+    bottom: 22%;
   }
 }
 
@@ -539,7 +539,7 @@ body{
     bottom: -60%;
   }
   to {
-    bottom: 20%;
+    bottom: 22%;
   }
 }
 }
