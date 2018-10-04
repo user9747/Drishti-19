@@ -258,7 +258,7 @@ body{
     min-height: 10em;
    
   height:80vh;
-  z-index: 1;
+  z-index: -1;
   
 
 
@@ -278,6 +278,21 @@ body{
   width:80vw;
   -webkit-animation: landanim 1.5s ease-in-out ;
           animation: landanim 1.5s ease-in-out ;
+}
+
+
+
+.college{
+   position: fixed;
+    /* center the element */
+    right: 0;
+    left: 0;
+    bottom:9.5vh;
+    margin-right: auto;
+    margin-left: auto;
+  z-index:1;
+  width:40vw;
+
 }
 .balloon{
   bottom:55vh;
