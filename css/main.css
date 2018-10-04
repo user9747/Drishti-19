@@ -60,20 +60,20 @@
 @-webkit-keyframes drishanim {
  
   from {
-    bottom: -60vh;
+    bottom: -60%;
   }
   to {
-    bottom: 45vh;
+    bottom: 45%;
   }
 }
 
 @keyframes drishanim {
  
   from {
-    bottom: -60vh;
+    bottom: -60%;
   }
   to {
-    bottom: 45vh;
+    bottom: 45%;
   }
 }
 @-webkit-keyframes littlecloudanim {
@@ -359,7 +359,7 @@ body{
           animation: suninitopac 2s linear ;
          
 }
-@media (max-width: 720px){
+@media (max-width: 770px){
  .earth{
   
   height:60vw;
@@ -372,6 +372,34 @@ body{
 }
 .balloon{
  bottom:30vh;
+
+}
+
+
+
+.drishti{
+  bottom:16%;
+  
+}
+@-webkit-keyframes drishanim {
+ 
+  from {
+    bottom: -60%;
+  }
+  to {
+    bottom: 16%;
+  }
+}
+
+@keyframes drishanim {
+ 
+  from {
+    bottom: -60%;
+  }
+  to {
+    bottom: 16%;
+  }
+}
 
 }
 @media (max-width: 480px){
@@ -387,6 +415,29 @@ body{
 }
 .balloon{
  bottom:30vh;
+}
+.drishti{
+  bottom:13%;
+  height:40vh;
+}
+@-webkit-keyframes drishanim {
+ 
+  from {
+    bottom: -60%;
+  }
+  to {
+    bottom: 13%;
+  }
+}
+
+@keyframes drishanim {
+ 
+  from {
+    bottom: -60%;
+  }
+  to {
+    bottom: 13%;
+  }
 }
 }
 @media (max-width: 360px){
