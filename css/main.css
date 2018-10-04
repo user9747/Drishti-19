@@ -50,7 +50,7 @@
     left:0vh;
  }
  100%{
-  left:55vh;
+  left:40vh;
  }
 }
 @-webkit-keyframes bigcloudanim {
@@ -58,7 +58,7 @@
     right:0vh;
  }
  100%{
-  right:55vh;
+  right:50vh;
  }
 }
 
@@ -67,7 +67,7 @@
     right:0vh;
  }
  100%{
-  right:55vh;
+  right:50vh;
  }
 }
 @-webkit-keyframes balloon2anim {
@@ -230,7 +230,7 @@ body{
 .bigballoon{
   bottom:55vh;
   position: fixed;
-  left: 60vh;
+  right: 40vh;
   margin-right: auto;
   margin-left: auto;
   z-index:1;
@@ -239,9 +239,9 @@ body{
 
 }
 .bigcloud{
-  bottom:65vh;
+  bottom:68vh;
   position: fixed;
-  right: 55vh;
+  right: 50vh;
   margin-right: auto;
   margin-left: auto;
   z-index:1;
@@ -252,7 +252,7 @@ body{
 .littlecloud{
   bottom:75vh;
   position: fixed;
-  left: 55vh;
+  left: 40vh;
   margin-right: auto;
   margin-left: auto;
   z-index:1;
@@ -296,8 +296,22 @@ body{
   bottom: 0vh;
 }
 .balloon{
- bottom:30vh;
+  left:10vh;
 
+}
+.balloon2{
+  right:8vh;
+
+}
+.bigballoon{
+  right:10vh;
+}
+.littlecloud{
+
+}
+.bigcloud{
+
+}
 }
 @media (max-width: 480px){
  .earth{
@@ -311,7 +325,21 @@ body{
   bottom: 0vh;
 }
 .balloon{
- bottom:30vh;
+  left:10vh;
+
+}
+.balloon2{
+  right:8vh;
+
+}
+.bigballoon{
+  right:10vh;
+}
+.littlecloud{
+
+}
+.bigcloud{
+
 }
 }
 @media (max-width: 360px){
@@ -321,7 +349,20 @@ body{
 
 }
 .balloon{
-  bottom:30vh;
+  left:10vh;
+
+}
+.balloon2{
+  right:8vh;
+
+}
+.bigballoon{
+  right:10vh;
+}
+.littlecloud{
+
+}
+.bigcloud{
 
 }
 }
