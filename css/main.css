@@ -98,7 +98,7 @@
     right:0vh;
  }
  100%{
-  right:50vh;
+  right:45vh;
  }
 }
 
@@ -107,7 +107,7 @@
     right:0vh;
  }
  100%{
-  right:50vh;
+  right:45vh;
  }
 }
 @-webkit-keyframes balloon2anim {
@@ -274,7 +274,7 @@ body{
     right: 0;
     left: 0;
     bottom:0vh; 
-    margin-bottom: -10vh;
+    margin-bottom: -7vh;
 
        margin-right: auto;
     margin-left: auto;
@@ -291,7 +291,7 @@ body{
     /* center the element */
     right: 0;
     left: 0;
-    bottom:9.5vh;
+    bottom:9vh;
     margin-right: auto;
     margin-left: auto;
   z-index:1;
@@ -335,7 +335,7 @@ body{
 .bigcloud{
   bottom:68vh;
   position: fixed;
-  right: 50vh;
+  right: 45vh;
   margin-right: auto;
   margin-left: auto;
   z-index:1;
@@ -354,11 +354,6 @@ body{
   animation: littlecloudanim 3s ease-in-out ;
 
 }
-
-
-
-
-
 .rot {
   -webkit-animation: rotate-center 5s linear infinite both;
           animation: rotate-center 5s linear infinite both;
@@ -378,6 +373,9 @@ body{
           animation: suninitopac 2s linear ;
          
 }
+
+
+
 @media (max-width: 770px){
  .earth{
   
@@ -388,6 +386,7 @@ body{
 .land{
   width:80vw;
   bottom: 0vh;
+  margin-bottom: -4vh;
 }
 .balloon{
   left:10vh;
@@ -403,10 +402,10 @@ body{
 .littlecloud{
 
 }
-
-
-
-
+.college{
+  bottom:4.5vh;
+  width:40vh;
+}
 .drishti{
   bottom:16%;
   
@@ -431,11 +430,9 @@ body{
   }
 }
 
-
 .bigcloud{
 
 }
-
 }
 @media (max-width: 480px){
  .earth{
@@ -447,6 +444,7 @@ body{
 .land{
   width:80vw;
   bottom: 0vh;
+  margin-bottom: -3vh;
 }
 .balloon{
   left:10vh;
@@ -464,6 +462,10 @@ body{
 }
 .bigcloud{
 
+}
+.college{
+  bottom:4.5vh;
+  width:38vh;
 }
 .drishti{
   bottom:13%;
@@ -495,6 +497,10 @@ body{
   height:70vw;
 
 }
+.land{
+  margin-bottom: -0.5vh;
+  width:55vh;
+}
 .balloon{
   left:10vh;
 
@@ -511,5 +517,9 @@ body{
 }
 .bigcloud{
 
+}
+.college{
+  bottom:4.3vh;
+  width:30vh;
 }
 }
