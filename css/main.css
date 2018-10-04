@@ -274,7 +274,7 @@ body{
     right: 0;
     left: 0;
     bottom:0vh; 
-    margin-bottom: -7vh;
+    
 
        margin-right: auto;
     margin-left: auto;
@@ -386,7 +386,6 @@ body{
 .land{
   width:80vw;
   bottom: 0vh;
-  margin-bottom: -4vh;
 }
 .balloon{
   left:10vh;
@@ -444,7 +443,6 @@ body{
 .land{
   width:80vw;
   bottom: 0vh;
-  margin-bottom: -3vh;
 }
 .balloon{
   left:10vh;
@@ -498,7 +496,6 @@ body{
 
 }
 .land{
-  margin-bottom: -0.5vh;
   width:55vh;
 }
 .balloon{
