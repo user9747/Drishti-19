@@ -295,7 +295,7 @@ body{
     margin-right: auto;
     margin-left: auto;
   z-index:1;
-  width:40vw;
+  width:38vw;
 
 }
 .balloon{
@@ -404,10 +404,10 @@ body{
 }
 .college{
   bottom:4.5vh;
-  width:40vh;
+  width:44vh;
 }
 .drishti{
-  bottom:16%;
+  bottom:30%;
   
 }
 @-webkit-keyframes drishanim {
@@ -416,7 +416,7 @@ body{
     bottom: -60%;
   }
   to {
-    bottom: 16%;
+    bottom: 30%;
   }
 }
 
@@ -426,7 +426,7 @@ body{
     bottom: -60%;
   }
   to {
-    bottom: 16%;
+    bottom: 30%;
   }
 }
 
@@ -468,7 +468,7 @@ body{
   width:38vh;
 }
 .drishti{
-  bottom:13%;
+  bottom:25%;
   height:40vh;
 }
 @-webkit-keyframes drishanim {
@@ -477,7 +477,7 @@ body{
     bottom: -60%;
   }
   to {
-    bottom: 13%;
+    bottom: 25%;
   }
 }
 
@@ -487,7 +487,7 @@ body{
     bottom: -60%;
   }
   to {
-    bottom: 13%;
+    bottom: 25%;
   }
 }
 }
@@ -521,5 +521,28 @@ body{
 .college{
   bottom:4.3vh;
   width:30vh;
+}
+.drishti{
+  bottom:20%;
+  height:40vh;
+}
+@-webkit-keyframes drishanim {
+ 
+  from {
+    bottom: -60%;
+  }
+  to {
+    bottom: 20%;
+  }
+}
+
+@keyframes drishanim {
+ 
+  from {
+    bottom: -60%;
+  }
+  to {
+    bottom: 20%;
+  }
 }
 }
