@@ -1,3 +1,24 @@
+
+@-webkit-keyframes balloon1 {
+  0%,100%{ -webkit-transform:rotate(-6deg);bottom: 45vh;}
+  50%{ -webkit-transform:rotate(8deg);bottom: 46vh; }
+}
+@-moz-keyframes balloon1 {
+  0%,100%{ -moz-transform:translateY(0) rotate(-6deg);}
+  50%{ -moz-transform:translateY(-10px) rotate(8deg); }
+}
+@-o-keyframes balloon1 {
+  0%,100%{ -o-transform:translateY(0) rotate(-6deg);}
+  50%{ -o-transform:translateY(-10px) rotate(8deg); }
+}
+@keyframes balloon1 {
+  0%,100%{ -webkit-transform:rotate(-6deg);bottom: 45vh;}
+  50%{ -webkit-transform:rotate(8deg);bottom: 46vh; }
+}
+
+
+
+
 @-webkit-keyframes landanim {
   0% {
     -webkit-transform:translateY(60px);
@@ -35,6 +56,25 @@
  100%{
   bottom:55vh;
  }
+}
+@-webkit-keyframes drishanim {
+ 
+  from {
+    bottom: -60vh;
+  }
+  to {
+    bottom: 45vh;
+  }
+}
+
+@keyframes drishanim {
+ 
+  from {
+    bottom: -60vh;
+  }
+  to {
+    bottom: 45vh;
+  }
 }
 @-webkit-keyframes littlecloudanim {
   0% {
@@ -168,6 +208,41 @@
 body{
   overflow-y: hidden;
 }
+
+
+.drishti{
+  position: fixed;
+    /* center the element */
+    right: 0;
+    left: 0;
+    bottom: 45vh;
+    margin-right: auto;
+    margin-left: auto;
+    /* give it dimensions */
+    min-height: 10em;
+   
+  height:50vh;
+  z-index: 5;
+  -webkit-animation: drishanim 3s ease-in-out ;
+  animation: drishanim 3s ease-in-out ;
+  animation-delay: 1s;
+  
+
+
+}
+.drishtientry{
+  -webkit-animation: suninitopac 1s linear;
+          animation: suninitopac 1s linear ;
+
+}
+/*.drishtiup{
+    -webkit-animation:balloon1 6s ease-in-out infinite;
+  -moz-animation:balloon1 6s ease-in-out infinite;
+  -o-animation:balloon1 6s ease-in-out infinite;
+  animation:balloon1 6s ease-in-out infinite;
+  animation-delay: 4s;
+
+}*/
 .earth{
   /*position:absolute;
   top:40vh;
