@@ -388,9 +388,65 @@ body{
          
 }
 
+@media (max-width: 1025px){
+   .earth{
+  
+  height:70vw;
+  bottom:0vh;
 
+}
+.land{
+  width:90vw;
+  bottom: 0vh;
+}
+.college{
+  bottom:4vh;
+  width:40vh;
+}
+.walkway{
+  height:7vh;
+  bottom:-3vh;
+}
+.drishti{
+  bottom:30%;
+  height:35vh;
+  
+}
+.balloon{
+  left:10vh;
 
+}
+.balloon2{
+  right:8vh;
 
+}
+.bigballoon{
+  right:2vh;
+}
+.littlecloud{
+
+}
+@-webkit-keyframes drishanim {
+ 
+  from {
+    bottom: -60%;
+  }
+  to {
+    bottom: 30%;
+  }
+}
+
+@keyframes drishanim {
+ 
+  from {
+    bottom: -60%;
+  }
+  to {
+    bottom: 30%;
+  }
+}
+
+}
 @media (max-width: 770px){
  .earth{
   
@@ -425,7 +481,8 @@ body{
   bottom:-3vh;
 }
 .drishti{
-  bottom:30%;
+  bottom:25%;
+  height:40vh;
   
 }
 @-webkit-keyframes drishanim {
@@ -434,7 +491,7 @@ body{
     bottom: -60%;
   }
   to {
-    bottom: 30%;
+    bottom: 25%;
   }
 }
 
@@ -444,7 +501,7 @@ body{
     bottom: -60%;
   }
   to {
-    bottom: 30%;
+    bottom: 25%;
   }
 }
 
