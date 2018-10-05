@@ -60,20 +60,20 @@
 @-webkit-keyframes drishanim {
  
   from {
-    bottom: -60%;
+    bottom: -60vh;
   }
   to {
-    bottom: 45%;
+    bottom: 45vh;
   }
 }
 
 @keyframes drishanim {
  
   from {
-    bottom: -60%;
+    bottom: -60vh;
   }
   to {
-    bottom: 45%;
+    bottom: 45vh;
   }
 }
 @-webkit-keyframes littlecloudanim {
@@ -223,8 +223,8 @@ body{
    
   height:50vh;
   z-index: 10;
-  -webkit-animation: drishanim 3s ease-in-out ;
-  animation: drishanim 3s ease-in-out ;
+  -webkit-animation: drishanim 2s ease-in-out ;
+  animation: drishanim 2s ease-in-out ;
   animation-delay: 1s;
   
 
@@ -429,20 +429,20 @@ body{
 @-webkit-keyframes drishanim {
  
   from {
-    bottom: -60%;
+    bottom: -60vh;
   }
   to {
-    bottom: 30%;
+    bottom: 30vh;
   }
 }
 
 @keyframes drishanim {
  
   from {
-    bottom: -60%;
+    bottom: -60vh;
   }
   to {
-    bottom: 30%;
+    bottom: 30vh;
   }
 }
 
@@ -488,20 +488,20 @@ body{
 @-webkit-keyframes drishanim {
  
   from {
-    bottom: -60%;
+    bottom: -60vh;
   }
   to {
-    bottom: 25%;
+    bottom: 25vh;
   }
 }
 
 @keyframes drishanim {
  
   from {
-    bottom: -60%;
+    bottom: -60vh;
   }
   to {
-    bottom: 25%;
+    bottom: 25vh;
   }
 }
 
@@ -553,20 +553,20 @@ body{
 @-webkit-keyframes drishanim {
  
   from {
-    bottom: -60%;
+    bottom: -60vh;
   }
   to {
-    bottom: 20%;
+    bottom: 20vh;
   }
 }
 
 @keyframes drishanim {
  
   from {
-    bottom: -60%;
+    bottom: -60vh;
   }
   to {
-    bottom: 20%;
+    bottom: 20vh;
   }
 }
 }
@@ -611,20 +611,20 @@ body{
 @-webkit-keyframes drishanim {
  
   from {
-    bottom: -60%;
+    bottom: -60vh;
   }
   to {
-    bottom: 22%;
+    bottom: 22vh;
   }
 }
 
 @keyframes drishanim {
  
   from {
-    bottom: -60%;
+    bottom: -60vh;
   }
   to {
-    bottom: 22%;
+    bottom: 22vh;
   }
 }
 }
