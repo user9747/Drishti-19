@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
+
 @-webkit-keyframes collegeanim {
   0% {
     -webkit-transform:translateY(200px);
@@ -236,6 +239,73 @@ body{
 }
 
 
+.ctext{
+  margin-top: 6vh;
+  font-family: 'Alfa Slab One', cursive;
+ 
+
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+  animation-delay: 2.5s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+.csoon{
+  font-size: 4vh;
+  -webkit-animation: suninitopac 2.5s linear;
+          animation: suninitopac 2.5s linear ;
+}
+.broch{
+  background-color:  #FFC300;
+  outline: none;
+  border-width: 0px;
+  border-radius: 3px;
+  font-size: 3vh;
+  padding: 1.5vh;
+  display: block; margin: 0 auto;
+   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+ -webkit-animation: suninitopac 2.5s linear;
+          animation: suninitopac 2.5s linear ;
+}
+
+.ctext a{
+  color:black;
+  text-decoration: none;
+  outline: none;
+
+}
+.ctext a :hover{
+  color:black;
+  text-decoration: none;
+  outline: none;
+
+}
+.ctext button : hover{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
 .drishti{
   position: fixed;
     /* center the element */
@@ -247,7 +317,7 @@ body{
     /* give it dimensions */
     min-height: 10em;
    
-  height:40vh;
+  height:35vh;
   z-index: 10;
   -webkit-animation: drishanim 2s ease-in-out ;
   animation: drishanim 2s ease-in-out ;
