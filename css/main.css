@@ -63,7 +63,7 @@
     bottom: -60vh;
   }
   to {
-    bottom: 45vh;
+    bottom: 40vh;
   }
 }
 
@@ -73,7 +73,7 @@
     bottom: -60vh;
   }
   to {
-    bottom: 45vh;
+    bottom: 40vh;
   }
 }
 @-webkit-keyframes littlecloudanim {
@@ -215,13 +215,13 @@ body{
     /* center the element */
     right: 0;
     left: 0;
-    bottom: 45vh;
+    bottom: 40vh;
     margin-right: auto;
     margin-left: auto;
     /* give it dimensions */
     min-height: 10em;
    
-  height:50vh;
+  height:40vh;
   z-index: 10;
   -webkit-animation: drishanim 2s ease-in-out ;
   animation: drishanim 2s ease-in-out ;
@@ -259,7 +259,7 @@ body{
       -webkit-animation: opacanim 1s linear;
           animation: opacanim 1s linear ;
    
-  height:80vh;
+  height:60vh;
   z-index: -1;
   
 
@@ -279,7 +279,7 @@ body{
        margin-right: auto;
     margin-left: auto;
   z-index:2;
-  width:60vw;
+  width:50vw;
   -webkit-animation: landanim 1.5s ease-in-out ;
           animation: landanim 1.5s ease-in-out ;
 }
@@ -295,7 +295,7 @@ body{
     margin-right: auto;
     margin-left: auto;
   z-index:1;
-  width:30vw;
+  width:25vw;
 
 }
 .walkway{
