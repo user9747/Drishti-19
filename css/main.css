@@ -194,49 +194,8 @@
   }
 }
 
-@-webkit-keyframes collegeanim {
-  0% {
-    -webkit-transform:translateY(200px);
-     transform:translateY(100px);
- }
- 100%{
-  -webkit-transform:translateY(0px);
-     transform:translateY(0px);
- }
-}
 
-@keyframes collegeanim {
- 0% {
-  -webkit-transform:translateY(300px);
-   transform:translateY(300px);
-}
-100%{
--webkit-transform:translateY(0px);
-   transform:translateY(0px);
-}
-}
 
-@-webkit-keyframes walkwayanims {
-  0% {
-    -webkit-transform:translateY(200px);
-     transform:translateY(200px);
- }
- 100%{
-  -webkit-transform:translateY(0px);
-     transform:translateY(0px);
- }
-}
-
-@keyframes walkwayanim {
-  0% {
-    -webkit-transform:translateY(200px);
-     transform:translateY(200px);
- }
- 100%{
-  -webkit-transform:translateY(0px);
-     transform:translateY(0px);
- }
-}
 
 
 
@@ -289,7 +248,6 @@ body{
   top:40vh;
   left:70vh;*/
   position: fixed;
-
     /* center the element */
     right: 0;
     left: 0;
@@ -302,8 +260,6 @@ body{
           animation: opacanim 1s linear ;
    
   height:60vh;
-
- 
   z-index: -1;
   
 
@@ -314,12 +270,14 @@ body{
   top:60vh;
   left:38vw;*/
   position: fixed;
-  /* center the element */
-  right: 0;
-  left: 0;
-  bottom:0vh; 
-  margin-right: auto;
-  margin-left: auto;
+    /* center the element */
+    right: 0;
+    left: 0;
+    bottom:0vh; 
+    
+
+       margin-right: auto;
+    margin-left: auto;
   z-index:2;
   width:50vw;
   -webkit-animation: landanim 1.5s ease-in-out ;
@@ -329,20 +287,16 @@ body{
 
 
 .college{
-  position: fixed;
-  /* center the element */
-  right: 0;
-  left: 0;
-  bottom:9vh;
-  margin-right: auto;
-  margin-left: auto;
+   position: fixed;
+    /* center the element */
+    right: 0;
+    left: 0;
+    bottom:9vh;
+    margin-right: auto;
+    margin-left: auto;
   z-index:1;
-
   width:25vw;
 
-
-  -webkit-animation: collegeanim 1.5s ease-in-out ;
-  animation: collegeanim 1.5s ease-in-out;
 }
 .walkway{
    position: fixed;
@@ -356,9 +310,7 @@ body{
   z-index:8;
   height:12vh;
   width:30vw;
-  -webkit-animation: walkwayanim 1s ease-in-out ;
-  animation: walkwayanim 1s ease-in-out;
-
+  
 }
 .balloon{
   bottom:55vh;
