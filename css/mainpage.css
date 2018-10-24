@@ -1,0 +1,113 @@
+.block{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   background-image: url('../img/09.jpg');
+    animation: bgAnimation 40s linear infinite;
+    -webkit-animation: bgAnimation 40s linear infinite;
+    clip-path: url(#myClip);
+
+}
+
+ /* .txt{
+    font-family: futura;
+    letter-spacing: 0.1em;
+    font-size: 100px;
+    font-weight: bold;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: url(http://ajsai.jp/wp-content/themes/ajsai-theme/images/non-thumbnail.jpg);
+    animation: bgAnimation 40s linear infinite;
+    -webkit-animation: bgAnimation 40s linear infinite;
+  }*/
+
+@keyframes bgAnimation {
+    from { background-position: 0px center; }
+    to { background-position: 0px 2000px center; }
+}
+@-webkit-keyframes bgAnimation {
+    from { background-position: 0px center; }
+    to { background-position: 0px 2000px center; }
+}
+
+
+
+
+
+
+
+
+
+.box {
+  width:600px;
+  height:700px;
+  border-radius: 5px;
+  box-shadow: 0 2px 30px rgba(black, .2);
+  background: #3c64f800;
+  position: relative;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+  clip-path: url(#myClip);
+}
+
+.wave {
+  opacity: .4;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  background:#00d2f4;
+  width: 500px;
+  height: 500px;
+  margin-left: -250px;
+  margin-top: -250px;
+  transform-origin: 50% 48%;
+  border-radius: 45%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: .6;
+  background: #0066ff;
+}
+
+.box:after {
+  content: '';
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #3c64f800;
+  z-index: 11;
+  transform: translate3d(0, 0, 0);
+}
+
+.title {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  line-height: 300px;
+  text-align: center;
+  transform: translate3d(0, 0, 0);
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: .4em;
+  font-size: 24px;
+  text-shadow: 0 1px 0 rgba(black, .1);
+  text-indent: .3em;
+}
+@keyframes drift {
+  from { transform: rotate(0deg); }
+  from { transform: rotate(360deg); }
+}
