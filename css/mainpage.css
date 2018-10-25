@@ -24,6 +24,26 @@
     -webkit-animation: bgAnimation 40s linear infinite;
   }*/
 
+a{
+  text-decoration: none;
+  color:inherit;
+ }
+
+a:hover{
+  text-decoration: none;
+  color:inherit;
+}
+
+
+  .card-paper{
+    margin: auto; border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    transition: all 235ms ease 0s;
+    box-shadow: 15px 28px 25px -18px rgba(0,0,0,.2);
+  }
+
 @keyframes bgAnimation {
     from { background-position: 0px center; }
     to { background-position: 0px 2000px center; }
@@ -32,7 +52,6 @@
     from { background-position: 0px center; }
     to { background-position: 0px 2000px center; }
 }
-
 
 
 

@@ -9,8 +9,39 @@
     <link rel="stylesheet" type="text/css" href="css/paper.min.css">
     <link rel="stylesheet" type="text/css" href="css/mainpage.css">
     <script src="main.js"></script>
+    <style type="text/css">
+      a{
+  text-decoration: none;
+  color:inherit;
+}
+
+    </style>
 </head>
 <body>
+<div style="padding-bottom: 13vh">
+  <nav class="border fixed split-nav">
+  <div class="nav-brand">
+    <h3><a href="main.html">Drishti</a></h3>
+  </div>
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+    <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
+        <li><a href="main.html/#about">About</a></li>
+        <li><a href="workshops.html">Workshops</a></li>
+        <li><a href="events.html">Events</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</div>
 	<!--<div class="block">
   		
 
@@ -29,17 +60,9 @@
       
 <img src="https://picsum.photos/768" alt="Card example image" >
 </div>
-<div class="sm-12 md-8 lg-8 col align-middle">
-	<div class="card" style="margin: auto; border-bottom-left-radius: 15px 255px;
-    border-bottom-right-radius: 225px 15px;
-    border-top-left-radius: 255px 15px;
-    border-top-right-radius: 15px 225px;
-    transition: all 235ms ease 0s;
-    box-shadow: 15px 28px 25px -18px rgba(0,0,0,.2);">
 
-		
-		
-			
+<div class="sm-12 md-8 lg-8 col align-middle">
+	<div class="card card-paper">
   				<div class="card-body">
     					<h4 class="card-title">My awesome Paper card!</h4>
     					<h5 class="card-subtitle">Nice looking subtitle.</h5>
@@ -49,6 +72,58 @@
 			</div>
 		</div>
 	</div>
+
+  <div class="row flex-center" id="about" >
+    <div class="sm-12 md-10 lg-10 col align-middle">
+         <div class="card card-paper" >
+              <div class="card-body">
+                  <h4 class="card-title">About!</h4>
+                  <h5 class="card-subtitle">Drishti</h5>
+                  <p class="card-text">Notice that the card width in this example have been set to 20rem, otherwise it will try to fill the current container/row where the card is.</p>
+              </div>
+          </div>
+    </div>
+  </div>
+
+  <div class="row flex-center" >
+    <div class="sm-12 md-6 lg-5 col align-middle">
+      <a href="workshops.html" >
+         <div class="card card-paper" id="workshops">
+              <div class="card-body">
+                  <h4 class="card-title">Workshops!</h4>
+                  <h5 class="card-subtitle">Nice looking subtitle.</h5>
+                  <p class="card-text">Notice that the card width in this example have been set to 20rem, otherwise it will try to fill the current container/row where the card is.</p>
+              </div>
+          </div>
+      </a>
+    </div>
+
+    <div class="sm-12 md-5 lg-5 col align-middle">
+     <a href="events.html">
+        <div class="card card-paper" id="events">
+            <div class="card-body">
+                <h4 class="card-title">Events!</h4>
+                <h5 class="card-subtitle">Nice looking subtitle.</h5>
+                <p class="card-text">Notice card is.</p>
+            </div>
+        </div>
+     </a>
+    </div>
+  </div>
+
+  <div class="row flex-center" >
+    <div class="sm-12 md-10 lg-10 col align-middle">
+         <div class="card card-paper">
+              <div class="card-body">
+                  <h4 class="card-title">College Of Engineering Trivandrum</h4>
+                  <h5 class="card-subtitle"></h5>
+                  <p class="card-text">Notice that the card width in this example have been set to 20rem, otherwise it will try to fill the current container/row where the card is.</p>
+              </div>
+          </div>
+    </div>
+  </div>
+
+
 	
 
 
