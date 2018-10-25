@@ -10,6 +10,42 @@
     clip-path: url(#myClip);
 
 }
+.card{
+  font-size: 1.7em;
+}
+.card1{
+  background: -moz-linear-gradient(top, #7a2ce0 0%, #5015a3 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #7a2ce0 0%,#5015a3 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #7a2ce0 0%,#5015a3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+border-color:rgba(0,0,0,0);
+color:white;
+}
+.card1 button{
+  color:white;
+  border-color:white;
+}
+.card2{
+  background: -moz-linear-gradient(top, #fc464f 0%, #d6222b 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #fc464f 0%,#d6222b 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #fc464f 0%,#d6222b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+border-color:rgba(0,0,0,0);
+color:white;
+}
+.card2 button{
+  color:white;
+  border-color:white;
+}
+.card3{
+  background: -moz-linear-gradient(top, #138ef9 0%, #0b81e8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #138ef9 0%,#0b81e8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #138ef9 0%,#0b81e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+border-color:rgba(0,0,0,0);
+color:white;
+}
+.card3 button{
+  color:white;
+  border-color:white;
+}
 
  /* .txt{
     font-family: futura;
