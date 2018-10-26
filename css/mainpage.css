@@ -1,3 +1,7 @@
+#navbar {
+  top: -70px;
+  transition: top 0.3s;
+}
 .block{
  
     clip-path: url(#myClip);
@@ -8,6 +12,8 @@ body{
   background-color: #04171E;
 
 }
+
+
 .card{
   font-size: 1.7em;
 }
