@@ -7,7 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/paper.min.css">
     <link rel="stylesheet" type="text/css" href="css/mainpage.css">
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+    <script src="js/main.js"></script>
+    <style type="text/css">
+      a{
+  text-decoration: none;
+  color:inherit;
+}
+
+    </style>
 </head>
 <body>
 <div style="padding-bottom: 13vh">
@@ -36,8 +44,8 @@
 
 </div>
   <div class="row flex-center" >
-    <div class="sm-12 md-6 lg-5 col align-middle">
-      <a href="workshops.html" >
+    <div class="sm-12 md-4 lg-4 col align-middle">
+      <a id="demo01" href="#animatedModal" >
          <div class="card card-paper card3" id="workshops">
               <div class="card-body align-middle" >
                   <img src="img/cetoutline_animated.svg">
@@ -47,45 +55,68 @@
       </a>
     </div>
 
-    <div class="sm-12 md-6 lg-6 col align-middle">
-     <a href="events.html">
-        <div class="card card-paper card3" id="events">
-            <div class="card-body">
-                <h4 class="card-title">Worshop 2!</h4>
-                <h5 class="card-subtitle">Nice looking subtitle.</h5>
-                <p class="card-text">tle">Nice looking subtitle.</h5>
-                  <p class="card-text">Notice that the card width in this example have been set to 20rem, otherwise it will try to fill the current container/row where the card is.</p>
-            </div>
-        </div>
-     </a>
-    </div>
-  </div>
-  <div class="row flex-center" >
-    <div class="sm-12 md-6 lg-5 col align-middle">
-      <a href="workshops.html" >
+   <div class="sm-12 md-4 lg-4 col align-middle">
+      <a id="demo01" href="#animatedModal" >
          <div class="card card-paper card3" id="workshops">
-              <div class="card-body">
-                  <h4 class="card-title">Workshops 3!</h4>
-                  <h5 class="card-subtitle">Nice looking subtitle.</h5>
-                  <p class="card-text">Notice that the card width in this example have been set to 20rem, otherwise it will try to fill the current container/row where the card is.</p>
+              <div class="card-body align-middle" >
+                  <img src="img/cetoutline_animated.svg">
+                  <h4 class="card-title" style="text-align: center;">Workshops 2!</h4>
               </div>
           </div>
       </a>
-    </div>
-
-    <div class="sm-12 md-6 lg-6 col align-middle">
-     <a href="events.html">
-        <div class="card card-paper card3" id="events">
-            <div class="card-body">
-                <h4 class="card-title">Worshop 4!</h4>
-                <h5 class="card-subtitle">Nice looking subtitle.</h5>
-                <p class="card-text">Nice looking subtitle.</h5>
-                  <p class="card-text">Notice that the card width in this example have been set to 20rem, otherwise it will try to fill the current container/row where the card is.</p>
-            </div>
-        </div>
-     </a>
-    </div>
+   </div>
+   <div class="sm-12 md-4 lg-4 col align-middle">
+      <a id="demo01" href="#animatedModal" >
+         <div class="card card-paper card3" id="workshops">
+              <div class="card-body align-middle" >
+                  <img src="img/cetoutline_animated.svg">
+                  <h4 class="card-title" style="text-align: center;">Workshops 2!</h4>
+              </div>
+          </div>
+      </a>
+   </div>
   </div>
+
+   <!--Call your modal-->
+
+    <!--DEMO01-->
+
+<div id="animatedModal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+  <div class="close-animatedModal"> 
+          <a href="#"><h2 style="margin: 2vh;">X</h2> </a>
+  </div>
+            
+  <div class="modal-content" color="#ffffff">
+                  <!--Your modal content goes here-->   
+     <article class="article">
+      <div class="row">
+        <div class="sm-12 md-4 lg-4 col align-middle"  style="padding: 0;margin: 0">
+          <img src="img/ws.jpg" style="height: 80vh">
+        </div>
+        <div class="sm-12 md-8 lg-8 col align-middle" style="padding: 0;margin: 0">        
+          <h1 class="article-title" >Workshop 1</h1>
+          <p class="text-lead" style="margin:0;font-size: 1.2em"> Notice that the card width in this example have been set to 20rem, otherwise it will try to fill the current container/row where the card is.Notice that the card width in this example have been set to 20rem, otherwise it will try to fill the current container/row where the card is.Notice that the card width in this example have been set to 20rem, otherwise it will try to fill the current container/row where the card is.Notice that the card width in this example have been set to 20rem, otherwise it will try to fill the current container/row where the card is. </p>
+          <div class="row">
+            <div class="sm-12 md-6 lg-6 col align-middle">
+              <h3 style="margin:0">Venue :</h3><br/>
+              <p style="margin:0">CCF</p>
+            </div>
+            <div class="sm-12 md-6 lg-6 col align-middle">
+              <h3 style="margin:0">Date & Time :</h3><br/>
+              <p style="margin:0">17 Nov<br/>
+              9am - 4pm </p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+   </article>
+
+  </div>
+</div>
+
+
 
 
 
@@ -103,6 +134,16 @@
       </clipPath>
   </defs>
 </svg>
-    
+    <!-- <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/animatedModal.min.js"></script> 
+<script>
+  $("#demo01").animatedModal({
+    color: '#fff'
+  });
+</script> 
 </body>
 </html>
