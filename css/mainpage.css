@@ -149,8 +149,8 @@ a:hover{
     to { background-position: 0px 2000px center; }
 }
 
-.card-body img{
-  width:30vh;
+.tile img{
+  height:30vh;
   margin:auto;
 }
 
