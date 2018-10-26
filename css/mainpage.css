@@ -51,7 +51,7 @@ color:#04171E;
 }
 .card3{
 
-background: white;
+background: white/*#57a1fc*/;
 border-color:rgba(0,0,0,0);
 color:#04171E;
 }
@@ -148,7 +148,9 @@ vertical-align: middle;
 .footercontent col{
   padding:0px;
 }
-
+.footercontent .card-text{
+  font-size: 1.2rem;
+}
 
 
 
@@ -156,7 +158,9 @@ vertical-align: middle;
 @media (max-width: 480px){
 
 
-
+.wsname{
+  height:10vh;
+}
 
 
 
