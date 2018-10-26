@@ -148,7 +148,9 @@ vertical-align: middle;
 .footercontent col{
   padding:0px;
 }
-
+.footercontent .card-text{
+  font-size: 1.2rem;
+}
 
 
 
