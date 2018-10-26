@@ -150,9 +150,14 @@ a:hover{
 }
 
 .tile img{
-  height:30vh;
+  height:25vh;
   margin:auto;
 }
+.tile {
+  text-align: center;
+}
+
+
 
 
 
