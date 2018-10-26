@@ -21,54 +21,16 @@ body{
   border: none;
   background:transparent;
 }
-.footerdiv{
-  padding: 0px;
-  overflow-x: hidden;
-  overflow:hidden;
-}
-.footercard{
-  width:103vw;
-  overflow-x: hidden;
-  background-color: white;
-  
-  margin-bottom:0px;
-   margin: auto; 
-   border-bottom-left-radius: 225px 15px;;
-    border-bottom-right-radius: 15px 225px;
-    border-top-left-radius: 255px 15px;
-    border-top-right-radius: 15px 225px;
-    transition: all 235ms ease 0s;
-    box-shadow: 15px 28px 25px -18px rgba(0,0,0,.2);
-    overflow: hidden;
 
-
-}
-.footerrow{
-   margin-bottom:0px;
-   overflow :hidden;
-
-}
-.footercard img{
-  height: 10vh;
- 
-}
-.footercontent{
-  overflow:hidden;
-}
-.footercontent col{
-  padding:0px;
-}
 
 .card{
-  font-size: 1.7em;
+  font-size: 1.3rem;
 }
 .card-title{
-  font-size: 2.0em;
+  font-size: 2.0rem;
   font-style: bold;
 }
-.footercard .card-title{
-  font-size: 1.6em;
-}
+
 .card1{
  background: white;
 border-color:rgba(0,0,0,0);
@@ -131,7 +93,7 @@ a:hover{
 
 .wsname{
   padding-top: 3vh;
-  font-size: 0.7em;
+  font-size: 1.2rem;
 }
 .wstile{
   text-align: center;
@@ -142,20 +104,54 @@ margin:auto;
 vertical-align: middle;
 }
 
+.footerdiv{
+  padding: 0px;
+  overflow-x: hidden;
+  overflow:hidden;
+}
+.footercard{
+  width:103vw;
+  overflow-x: hidden;
+  background-color: white;
+  
+  margin-bottom:0px;
+   margin: auto; 
+   border-bottom-left-radius: 225px 15px;;
+    border-bottom-right-radius: 15px 225px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    transition: all 235ms ease 0s;
+    box-shadow: 15px 28px 25px -18px rgba(0,0,0,.2);
+    overflow: hidden;
+    font-size: 1.6rem;
 
+
+}
+.footercard .card-title{
+  font-size: 1.6rem;
+}
+.footerrow{
+   margin-bottom:0px;
+   overflow :hidden;
+
+}
+.footercard img{
+  height: 10vh;
+ 
+}
+.footercontent{
+  overflow:hidden;
+}
+.footercontent col{
+  padding:0px;
+}
 
 
 
 
 
 @media (max-width: 480px){
- .footercontent .col{
 
-  padding:0;
- }
- .footercontent{
-  align-content: center;
- }
 
 
 
