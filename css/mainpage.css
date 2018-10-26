@@ -1,13 +1,7 @@
 .block{
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-   background-image: url('../img/09.jpg');
-    animation: bgAnimation 40s linear infinite;
-    -webkit-animation: bgAnimation 40s linear infinite;
+ 
     clip-path: url(#myClip);
+
 
 }
 body{
@@ -105,11 +99,11 @@ a:hover{
 
 
 .box {
-  width:600px;
-  height:700px;
+  width:400px;
+ 
   border-radius: 5px;
   box-shadow: 0 2px 30px rgba(black, .2);
-  background: #3c64f800;
+  background: white;
   position: relative;
   overflow: hidden;
   transform: translate3d(0, 0, 0);
