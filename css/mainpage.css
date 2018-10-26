@@ -15,6 +15,19 @@ body{
   background-attachment: fixed;*/
 
 }
+.social a{
+  text-decoration: none;
+  color: inherit;
+  border:none;
+  background: transparent;
+
+}
+.social a : hover{
+  text-decoration: none;
+  color:inherit;
+  border: none;
+  background:transparent;
+}
 .footerdiv{
   padding: 0px;
   overflow-x: hidden;
@@ -44,7 +57,7 @@ body{
 }
 .footercard img{
   height: 10vh;
-  margin:10px;
+ 
 }
 .footercontent{
   overflow:hidden;
