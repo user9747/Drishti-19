@@ -151,8 +151,36 @@ vertical-align: middle;
 .footercontent .card-text{
   font-size: 1.2rem;
 }
+.wsmodalimage{
+  height: 50vh; margin: auto;
+}
+@media (min-width: 1366px) and (max-width:1800px){
 
 
+.footercard img{
+  height: 4vh;
+ 
+}
+
+}
+@media (min-width: 900px) and (max-width: 1025px){
+.wsmodalimage{
+  height:30vh;
+}
+
+.footercard img{
+  height: 4vh;
+ 
+}
+
+}
+@media  (max-width: 770px) and (min-width: 760px){
+  .footercard img{
+  height: 3vh;
+ 
+}
+
+}
 
 
 @media (max-width: 480px){
