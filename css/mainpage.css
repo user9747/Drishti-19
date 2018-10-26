@@ -9,8 +9,10 @@
 
 }
 body{
-  background-color: #04171E;
-  background-image: url('img/background.svg');
+  background-color: #e3e3e3;
+/*  background-image: url('../img/background.svg');
+  background-size: fill;
+  background-attachment: fixed;*/
 
 }
 
@@ -23,9 +25,7 @@ body{
   font-style: bold;
 }
 .card1{
- background: -moz-linear-gradient(top, #ececec 0%, #e1e0e2 99%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #ececec 0%,#e1e0e2 99%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #ececec 0%,#e1e0e2 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+ background: white;
 border-color:rgba(0,0,0,0);
 color:#04171E;
 }
@@ -34,9 +34,7 @@ color:#04171E;
   border-color:#04171E;
 }
 .card2{
-  background: -moz-linear-gradient(top, #ea7777 0%, #f78888 99%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #ea7777 0%,#f78888 99%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #ea7777 0%,#f78888 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: white;
 border-color:rgba(0,0,0,0);
 color:#04171E;
 }
@@ -45,9 +43,10 @@ color:#04171E;
   border-color:#04171E;
 }
 .card3{
- background: -moz-linear-gradient(top, #f3d250 0%, #f4d730 99%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #f3d250 0%,#f4d730 99%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #f3d250 0%,#f4d730 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+ /*background: -moz-linear-gradient(top, #f3d250 0%, #f4d730 99%); 
+background: -webkit-linear-gradient(top, #f3d250 0%,#f4d730 99%); 
+background: linear-gradient(to bottom, #f3d250 0%,#f4d730 99%); */
+background: white;
 border-color:rgba(0,0,0,0);
 color:#04171E;
 }
