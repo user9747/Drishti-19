@@ -94,6 +94,8 @@ a:hover{
 .wsname{
   padding-top: 3vh;
   font-size: 1.2rem;
+  height:13vh;
+  text-transform: none;
 }
 .wstile{
   text-align: center;
@@ -103,6 +105,7 @@ height:30vh;
 margin:auto;
 vertical-align: middle;
 }
+
 
 .footerdiv{
   padding: 0px;
