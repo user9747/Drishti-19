@@ -106,9 +106,7 @@ color:#04171E;
   color:#04171E;
   border-color:#04171E;
 }
-#ws{
-  margin: auto;
-}
+
  /* .txt{
     font-family: futura;
     letter-spacing: 0.1em;
@@ -131,9 +129,6 @@ a:hover{
   text-decoration: none;
   color:inherit;
 }
-#animatedModel{
-  background-color: white;
-}
 
 
   .card-paper{
@@ -154,7 +149,10 @@ a:hover{
     to { background-position: 0px 2000px center; }
 }
 
-
+.card-body img{
+  width:30vh;
+  margin:auto;
+}
 
 
 
