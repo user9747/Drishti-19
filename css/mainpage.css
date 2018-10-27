@@ -154,6 +154,10 @@ vertical-align: middle;
 .wsmodalimage{
   height: 50vh; margin: auto;
 }
+nav ul.inline li a{
+  font-size: 1rem;
+}
+
 @media (min-width: 1366px) and (max-width:1800px){
 
 
