@@ -59,7 +59,9 @@ color:#04171E;
   color:#04171E;
   border-color:#04171E;
 }
-
+.card-body a{
+  background: transparent;
+}
 
 a{
   text-decoration: none;
