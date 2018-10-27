@@ -63,7 +63,7 @@
 
 
     <div class="sm-12 md-3 lg-3 col align-middle">
-      <a id="demo01" href="#animatedModal" >
+      <a id="demo01" href="#blockchaindscModal" >
          <div class="card card-paper card3" id="workshops">
               <div class="card-body wstile" >
                   <img src="img/workshops/blockchain.svg">
@@ -88,7 +88,7 @@
 
 
    <div class="sm-12 md-3 lg-3 col align-middle">
-      <a id="demo01" href="#animatedModal" >
+      <a id="demo03" href="#ararduinoModal" >
          <div class="card card-paper card3" id="workshops">
               <div class="card-body wstile" >
                   <img src="img/workshops/arduino.svg">
@@ -457,9 +457,9 @@
 
     <!--DEMO01-->
 
-<div id="animatedModal">
+<div id="blockchaindscModal">
         <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
-    <div class="close-animatedModal"> 
+    <div class="close-blockchaindscModal"> 
           <a href="#"><h2 style="margin: 2vh;">X</h2> </a>
     </div>
             
@@ -471,7 +471,7 @@
                                       <img src="img/ws.jpg" class="wsmodalimage" >
                     </div>
                      <div class="sm-12 md-8 lg-8 col align-middle" style="padding: 5vh;margin: 0">        
-                          <h1 class="article-title" align="center" >Workshop 1</h1>
+                          <h1 class="article-title" align="center" >Blockchain</h1>
                                       <p class="text-lead" style="margin:0;font-size: 1.0rem; text-align: justify;"> Notice that the card width in this example have been set to 20rem, otherwise it will try to fill the current container/row where the card is.Notice that the card width in this example have been set to 20rem, otherwise it will try to fill the current container/row where the card is.Notice that the card width in this example have been set to 20rem, otherwise it will try to fill the current container/row where the card is.Notice that the card width in this example have been set to 20rem, otherwise it will try to fill the current container/row where the card is. </p>
                       <div class="row">
                           <div class="sm-12 md-6 lg-6 col align-middle" style="padding: 0; margin-top: 1vh;">
@@ -501,6 +501,9 @@
 </div>
 
 
+
+
+<!--IOTMODAL-->
 <div id="iotModal">
         <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
     <div class="close-iotModal"> 
@@ -543,6 +546,65 @@
 
       </div>
 </div>
+<!--IOTMODAL ENDS-->
+
+
+<!--ARARDUINOMODAL-->
+<div id="ararduinoModal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+    <div class="close-ararduinoModal"> 
+          <a href="#"><h2 style="margin: 2vh;">X</h2> </a>
+    </div>
+            
+     <div class="modal-content" color="#ffffff">
+                  <!--Your modal content goes here-->   
+        <article class="article">
+            <div class="row">
+        <div class="sm-12 md-4 lg-4 col align-middle"  style="padding: 2vh;margin: 0">
+          <img src="img/ws.jpg" class="wsmodalimage" >
+        </div>
+        <div class="sm-12 md-8 lg-8 col align-middle" style="padding: 5vh;margin: 0">        
+          <h1 class="article-title" align="center" >AR with Arduino</h1>
+          <p class="text-lead" style="margin:0;font-size: 1.0rem; text-align: justify;"><strong>Want to expand your knowledge beyond the rote learning in class? Here is your chance. Want to venture into some Augmented Reality?</strong>
+ <br>
+Drishti brings you AR with Arduino, a one day workshop designed to equip you on the basics of Computer Vision and Arduino. This will pave the way for you to venture into Augmented Reality. The topics covered are:<br>
+▪Arduino<br>
+▪Computer Vision<br>
+▪Servo Motors<br>
+▪Basics of AR<br>
+ <br>
+Teams of 5 may apply. One kit per team will be provided.<br>
+ 
+Clear your calendars and call your friends. It's time to put on your learning caps!
+ </p>
+          <div class="row">
+            <div class="sm-12 md-6 lg-6 col align-middle" style="padding: 0; margin-top: 1vh;">
+              <h3 style="margin:0; font-size: 1.4rem;">Venue</h3><br/>
+              <p style="margin:0">College of Engineering Trivandrum</p>
+            </div>
+            <div class="sm-12 md-6 lg-6 col align-middle" style="padding: 0;margin-top: 1vh;">
+              <h3 style="margin:0;font-size: 1.4rem;">Date & Time</h3><br/>
+              <p style="margin:0">18 November 2018<br/>
+              </p>
+            </div>
+             <div class="sm-12 md-6 lg-6 col align-middle" style="padding: 0;margin-top: 1vh;">
+              <h3 style="margin:0;font-size: 1.4rem;">Registration Fee</h3><br/>
+              <p style="margin:0">INR 3500 per team</p>
+            </div>
+             <div class="sm-12 md-6 lg-6 col align-middle" style="padding: 0;margin-top: 1vh;">
+              <h3 style="margin:0;font-size: 1.4rem;">Contact</h3><br/>
+              <p style="margin:0">Justin 9544149973</p>
+               <p style="margin:0">Haridev 9207016447</p>
+            </div>
+          </div>
+          
+        </div>
+            </div>
+         </article>
+
+      </div>
+</div>
+<!--ARarduino ENDS-->
 
 
 
@@ -560,11 +622,16 @@
 <script src="js/animatedModal.min.js"></script> 
 <script>
   $("#demo01").animatedModal({
-    color: '#fff'
+    color: '#fff',
+    modalTarget:'blockchaindscModal'
   });
   $("#demo02").animatedModal({
     color: '#fff',
     modalTarget :'iotModal'
+  });
+   $("#demo03").animatedModal({
+    color: '#fff',
+    modalTarget :'ararduinoModal'
   });
 </script> 
 </body>
