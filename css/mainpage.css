@@ -155,6 +155,7 @@ vertical-align: middle;
 }
 .wsmodalimage{
   height: 50vh; margin: auto;
+  object-fit: cover;
 }
 nav ul.inline li a{
   font-size: 1rem;
